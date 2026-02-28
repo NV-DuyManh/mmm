@@ -13,16 +13,21 @@ namespace Cinema
 
         private void BtnPhim_Click(object sender, RoutedEventArgs e)
         {
+            // Nút này của Việt đã chạy đúng (gọi trang PagePhim)
             MainFrame.Content = new PagePhim();
         }
 
         private void BtnSanPham_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Chức năng Quản lý sản phẩm đang được xây dựng!", "Thông báo");
+            // SỬA TẠI ĐÂY: Thay MessageBox bằng lệnh gọi trang bắp nước của bạn
+            // Lưu ý: Bạn phải đảm bảo đã copy file qlsp.xaml và qlsp.xaml.cs 
+            // từ nhánh của bạn sang thư mục dự án này thì mới không bị gạch đỏ nhé.
+            MainFrame.Content = new qlsp();
         }
 
         private void BtnSuatChieu_Click(object sender, RoutedEventArgs e)
         {
+            // Nút này cũng đã chạy đúng
             MainFrame.Content = new QLSuatChieu();
         }
 
