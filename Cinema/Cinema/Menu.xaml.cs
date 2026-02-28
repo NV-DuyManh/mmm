@@ -13,7 +13,7 @@ namespace Cinema
 
         private void BtnPhim_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Chức năng Quản lý phim đang được xây dựng!", "Thông báo");
+            MainFrame.Content = new PagePhim();
         }
 
         private void BtnSanPham_Click(object sender, RoutedEventArgs e)
