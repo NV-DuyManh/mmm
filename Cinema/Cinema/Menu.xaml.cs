@@ -23,7 +23,7 @@ namespace Cinema
 
         private void BtnSuatChieu_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Chức năng Quản lý suất chiếu đang được xây dựng!", "Thông báo");
+            MainFrame.Content = new QLSuatChieu();
         }
 
         private void BtnTaiKhoan_Click(object sender, RoutedEventArgs e)
