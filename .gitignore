@@ -8,3 +8,8 @@ obj/
 .vs/
 *.mdf
 *.ldf
+bin/
+obj/
+.vs/
+*.mdf
+*.ldf
